@@ -19,7 +19,7 @@ implementation leveraged by bounded contexts and gateways
 Builds using the Flutter mobile framework. This includes the Sentry CLI.
 Currently only tested with Android.
 
-## ReactJS Builds
+## Node Builds
 
 A build environment for ReactJS - largely just Node with additional dependencies,
 such as Sentry.
