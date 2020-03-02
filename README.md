@@ -23,3 +23,9 @@ Currently only tested with Android.
 
 A build environment for ReactJS - largely just Node with additional dependencies,
 such as Sentry.
+
+# Publishing Updated Packages
+
+For information on how to publish containers to GitHub, see https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-docker-for-use-with-github-packages
+
+For information on how CircleCI can use GitHub build containers, see https://circleci.com/docs/2.0/private-images/
