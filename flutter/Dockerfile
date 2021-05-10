@@ -1,4 +1,4 @@
-FROM circleci/android:api-29
+FROM circleci/android:api-30
 
 RUN curl https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_2.0.6-stable.tar.xz -o /tmp/flutter.tar.xz && \
   sudo tar -xvJ -C /opt -f /tmp/flutter.tar.xz && \
