@@ -1,7 +1,7 @@
 FROM circleci/android:api-30
 
 RUN sudo apt-get install -y locales
-RUN dpkg-reconfigure locales
+RUN sudo dpkg-reconfigure locales
 RUN /usr/sbin/locale-gen C.UTF-8
 ENV LANG='C.UTF-8' LC_ALL='C.UTF-8'
 
