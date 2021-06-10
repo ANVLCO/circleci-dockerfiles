@@ -1,4 +1,4 @@
-FROM  circleci/node:12.11
+FROM  circleci/node:14
 
 RUN sudo mkdir -p /root/.config
 RUN sudo chown -R $USER:$(id -gn $USER) /root/.config
