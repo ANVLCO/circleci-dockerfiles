@@ -1,4 +1,4 @@
-FROM circleci/node:10.16
+FROM circleci/node:14
 
 ENV SEVERLESS_VERSION="1.50"
 
